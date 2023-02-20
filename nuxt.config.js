@@ -4,7 +4,7 @@ import { theme } from "./config.json";
 export default {
   target: 'static',
   router: {
-    base: '/m2m-folio-kit/'
+    base: '/m2m-folio/'
   },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,

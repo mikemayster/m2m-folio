@@ -21,7 +21,7 @@ The portfolio has been configured in `nuxt.config.js` in order to be deployed in
   It does not require any backend or database integration, it is full front end!
   <br/><br/>
 
-:satellite: Live Demo: [Click me!](https://mikemayster.github.io/m2m-folio-kit/)
+:satellite: Live Demo: [Click me!](https://mikemayster.github.io/m2m-folio/)
 
 <br/>
 
@@ -35,7 +35,7 @@ The portfolio has been configured in `nuxt.config.js` in order to be deployed in
 ### :hammer: How to run
 
 1. Clone this repository into your local environment.
-2. Edit entry `"name": "m2m-folio-kit"` in your package.json file, give a proper name to it!
+2. Edit entry `"name": "m2m-folio"` in your package.json file, give a proper name to it!
 3. Run `npm install`
 4. Run `npm run start`
 5. Open _localhost:8080_ or whichever url it will be prompt in the console and see if it is working correctly.
@@ -80,7 +80,7 @@ By adding **section** you will be able to filter but remember that the section m
 
 ### :rainbow: Color schemes
 
-M2M-folio-kit supports also color schemes, by default you will find two different themes, a light and a dark one. <br/>
+M2M-folio supports also color schemes, by default you will find two different themes, a light and a dark one. <br/>
 Don't worry, you will be able to choose your personal palette by modifying the file `config.json` and start customizing it with your own personal colors. <br/>
 
 ### :rocket: Deploy Nuxt on GitHub Pages
