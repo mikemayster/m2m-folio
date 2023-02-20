@@ -72,9 +72,6 @@ export default {
       tools: skills.tools,
     };
   },
-  created() {
-    console.log(this.$vuetify.theme.currentTheme);
-  },
   methods: {
     hoverBurger: function (layer) {
       this.burger = layer.burger;

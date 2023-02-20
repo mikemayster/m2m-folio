@@ -2,7 +2,7 @@
     "defaultSkills": {
         "title": "None",
         "stacks": [],
-        "burger": "/m2m-folio/burger/burger_blank.png"
+        "burger": "./burger/burger_blank.png"
     },
     "frontEnd": {
         "title": "Front End",
@@ -16,7 +16,7 @@
             { "name": "HTML5", "img": "mdi-language-html5", "color": "#e34c26" },
             { "name": "CSS3", "img": "mdi-language-css3", "color": "#264de4" }
         ],
-        "burger": "/m2m-folio/burger/burger_topbun.png"
+        "burger": "./burger/burger_topbun.png"
     },
     "backEnd": {
         "title": "Back End",
@@ -27,7 +27,7 @@
             { "name": "SQL", "img": "mdi-database", "color": "#0064a5" },
             { "name": "RESTful", "img": "mdi-api", "color": "#c3aaf4" }
         ],
-        "burger": "/m2m-folio/burger/burger_bottombun.png"
+        "burger": "./burger/burger_bottombun.png"
     },
     "tools": {
         "title": "Tools",
@@ -37,6 +37,6 @@
             { "name": "Jira", "img": "mdi-jira", "color": "#0052CC" },
             { "name": "Visual Studio", "img": "mdi-microsoft-visual-studio-code", "color": "#5d2b90" }
         ],
-        "burger": "/m2m-folio/burger/burger_middle.png"
+        "burger": "./burger/burger_middle.png"
     }
 }
