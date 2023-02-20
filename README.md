@@ -57,7 +57,6 @@ By changing the **title** value you will modify the label on the navigation menu
 
 You simply need to edit some simple `json` files to change the content of your portfolio, there will be one for every section.<br/>
 In the home page you will have three sections( About me/Greeting, Skills layer and Career timeline)
-Please do not remove credits from the footer one :)
 
 ### :newspaper: Home
 
