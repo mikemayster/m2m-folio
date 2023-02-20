@@ -11,8 +11,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - wallet',
-    title: 'wallet',
+    titleTemplate: '%s - m2m-folio',
+    title: 'm2m-folio',
     htmlAttrs: {
       lang: 'en'
     },
@@ -23,7 +23,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/m2m-folio/favicon.ico' }
     ]
   },
 
