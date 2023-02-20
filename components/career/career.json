@@ -1,0 +1,30 @@
+  {
+    "career": {
+        "title": "Career",
+        "timeline" : "Today",
+        "image" : "https://www.dhs.gov/sites/default/files/styles/large_card/public/2022-01/2022_0126_ocho_cybersecurity-careers_cards.jpg?h=73306683&itok=I-QdMDnS"
+    },
+    "messages": [
+        {
+          "company": "Lorem Ipsum",
+          "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+          "tags": "#Java #Vuejs #Vuetify #Soap Services #Postgres #WebServices #JSF #Javascript #Oracle #Spring MVC/Boot #Hibernate ",
+          "time": "2019 - Now",
+          "color": "green lighten-1"
+        },
+        {
+          "company": "Lorem Ipsum",
+          "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+          "tags": "#AJAX #jQuery #SVN #HTML 5.0 #XHTML #CSS 3 #Java #Oracle #Postgres #MySQL #RESTfulAPI #WebService #Jhipster",
+          "time": "2017 - 2019",
+          "color": "deep-purple lighten-1"
+        },
+        {
+          "company": "Lorem Ipsum",
+          "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+          "tags": "#Wordpress #WebServices #PHP #HTML #CSS #JS",
+          "time": "2013 - 2017",
+          "color": "deep-purple lighten-1"
+        }
+      ]
+  }
