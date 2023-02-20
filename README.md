@@ -83,4 +83,9 @@ By adding **section** you will be able to filter but remember that the section m
 M2M-folio-kit supports also color schemes, by default you will find two different themes, a light and a dark one. <br/>
 Don't worry, you will be able to choose your personal palette by modifying the file `config.json` and start customizing it with your own personal colors. <br/>
 
-### :rocket: Deploy
+### :rocket: Deploy Nuxt on GitHub Pages
+To deploy on GitHub Pages, you need to generate your static web application:
+`npm run generate`
+If you are creating GitHub Pages for one specific repository, and you don't have any custom domain, the URL of the page will be in this format: http://<username>.github.io/<repository-name>.
+Then generate and deploy your static application:
+`npm run deploy`
