@@ -27,10 +27,10 @@
       <v-col cols="12" lg="6" md="6" sm="6">
         <v-card-text>
           <div v-if="activeLayer.title === 'None'">
-            <!-- <h3>"Apps are like burgers. They've got layers."</h3> -->
             <p class="text-shadow info--text">
               <small>
-                Select a layer on the burger to show stack skills.
+                Hover the Burger layers to know something more about my tech
+                skills
               </small>
             </p>
           </div>
@@ -65,11 +65,12 @@ export default {
   data() {
     return {
       defaultSkills: skills.defaultSkills,
-      activeLayer: skills.defaultSkills,
-      burger: skills.defaultSkills.burger,
+      activeLayer: skills.frontEnd,
+      burger: skills.frontEnd.burger,
       frontEnd: skills.frontEnd,
       backEnd: skills.backEnd,
       tools: skills.tools,
+      burgerInterval: skills.burgerInterval,
     };
   },
   methods: {
@@ -77,6 +78,27 @@ export default {
       this.burger = layer.burger;
       this.activeLayer = layer;
     },
+    handleBurgerInterval(_me) {
+      const title = _me.activeLayer.title;
+      if (title === "None") {
+        _me.hoverBurger(_me.frontEnd);
+      }
+      if (title === "Front End") {
+        _me.hoverBurger(_me.tools);
+      }
+      if (title === "Tools") {
+        _me.hoverBurger(_me.backEnd);
+      }
+      if (title === "Back End") {
+        _me.hoverBurger(skills.defaultSkills);
+      }
+    },
+  },
+  mounted() {
+    const _me = this;
+    setInterval(function () {
+      _me.handleBurgerInterval(_me);
+    }, _me.burgerInterval);
   },
 };
 </script>

@@ -1,4 +1,5 @@
 {
+    "burgerInterval": 4000,
     "defaultSkills": {
         "title": "None",
         "stacks": [],
@@ -11,8 +12,6 @@
             { "name": "Vuejs", "img": "mdi-vuejs", "color": "#41B883" },
             { "name": "React", "img": "mdi-react", "color": "#61DBFB" },
             { "name": "Angular", "img": "mdi-angular", "color": "#c3002f" },
-            { "name": "Angularjs", "img": "mdi-angularjs", "color": "#dd1b16" },
-            { "name": "Jquery", "img": "mdi-jquery", "color": "#0868AC" },
             { "name": "HTML5", "img": "mdi-language-html5", "color": "#e34c26" },
             { "name": "CSS3", "img": "mdi-language-css3", "color": "#264de4" }
         ],

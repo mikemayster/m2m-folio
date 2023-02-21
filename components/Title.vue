@@ -25,7 +25,7 @@ export default {
   align-items: center;
 
   h1.glitch {
-    font-family: sans-serif;
+    // font-family: sans-serif;
     font-weight: 800;
     position: relative;
     font-size: 70px;

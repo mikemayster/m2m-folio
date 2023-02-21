@@ -64,7 +64,7 @@ Here you will have thre sections:
 
 1. About me/Greeting you can change by editing `components/greetings/greetings.json` file and add an entry to that providing simple informations like greeting, title, subTitle, caption, an image avatar and your contacts with additional icon and link. You can add multiple contacts as your relevant point of contacts. You can set a download link for your curriculum vitae by simply adding a file called `resume.pdf` inside the `static/resume` folder. If you don't need it you can disable it by simply disabling the property inside `components/greetings/greetings.json`.
 
-2. Skills you can change by editing `components/skills/skills.json` file, is divided in three layers (Front End, Back End, Tools) and for each layer you can add how many skills you want by providing name, image and color. Is component a component that renders a different image of a burger depending on where the user hovers or clicks. This component is made up of a single div with the burger nested inside and a sibling div positioned absolutely with the same height and width as the image. The sibling div contains three child divs that each take up a third of the parent div's height. These three divs have event listeners that trigger state change and render a new burger image along with corresponding skills set. Each skills set is a component of its own that triggers an animation when interacted with. This component is built in Photoshop and utilizes HTML, CSS, and JavaScript.
+2. Skills you can change by editing `components/skills/skills.json` file, is divided in three layers (Front End, Back End, Tools) and for each layer you can add how many skills you want by providing name, image and color. Is component a component that renders a different image of a burger depending on where the user hovers or clicks otherwise will change in sequence, with a timeout between one piece and another, you can se your own interval by changing the `burgerInterval`. This component is made up of a single div with the burger nested inside and a sibling div positioned absolutely with the same height and width as the image. The sibling div contains three child divs that each take up a third of the parent div's height. These three divs have event listeners that trigger state change and render a new burger image along with corresponding skills set. Each skills set is a component of its own that triggers an animation when interacted with. This component is built in Photoshop and utilizes HTML, CSS, and JavaScript.
 
 3. Career you can change by editing `components/career/career.json` file and add an entry to that providing simple informations like title, timeline, image, and messagges. You can add multiple messagges as you want by providing simple informations like company, message, tags, time and color
 
@@ -84,8 +84,9 @@ M2M-folio supports also color schemes, by default you will find two different th
 Don't worry, you will be able to choose your personal palette by modifying the file `config.json` and start customizing it with your own personal colors. <br/>
 
 ### :rocket: Deploy Nuxt on GitHub Pages
-To deploy on GitHub Pages, you need to generate your static web application:
-`npm run generate`
-If you are creating GitHub Pages for one specific repository, and you don't have any custom domain, the URL of the page will be in this format: http://<username>.github.io/<repository-name>.
-Then generate and deploy your static application:
+
+To deploy on GitHub Pages, you need to generate your static web application:<br/>
+`npm run generate`<br/>
+If you are creating GitHub Pages for one specific repository, and you don't have any custom domain, the URL of the page will be in this format: `http://<username>.github.io/<repository-name>`.<br/>
+Then generate and deploy your static application:<br/>
 `npm run deploy`

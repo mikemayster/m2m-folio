@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto">
+  <v-card class="mx-auto" width="500" tile>
     <v-img :src="link" aspect-ratio="2"></v-img>
 
     <v-card-title v-html="title" />
