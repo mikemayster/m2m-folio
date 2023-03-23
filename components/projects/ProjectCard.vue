@@ -5,7 +5,7 @@
     <v-card-title v-html="title" />
 
     <v-card-actions>
-      <v-btn @click="show = !show"> Show </v-btn>
+      <v-btn :href="web" target="_blank"> Show </v-btn>
 
       <v-spacer></v-spacer>
 
@@ -39,6 +39,10 @@ export default {
       default: "",
     },
     link: {
+      type: String,
+      default: "",
+    },
+    web: {
       type: String,
       default: "",
     },
