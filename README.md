@@ -23,6 +23,8 @@ The portfolio has been configured in `nuxt.config.js` in order to be deployed in
 
 :satellite: Live Demo: [Click me!](https://mikemayster.github.io/m2m-folio/)
 
+![Screenshot](m2m-image.jpg)
+
 <br/>
 
 ### :computer: Technologies & Programming stuff
